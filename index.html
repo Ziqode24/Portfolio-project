@@ -1,0 +1,419 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="index.js" defer></script>
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&family=Unbounded:wght@200..900&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+                                                                                                                          rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" />
+</head>
+
+<body>
+  <!-- hero Container -->
+  <div class="hero-container">
+    <header class="site-header">
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <span>Hazrat Mosaddique Ali</span>
+        </div>
+        <div class="navbar-menu">
+          <ul class="navbar-list">
+            <li>
+              <a href="#about" class="navbar-link">About</a>
+            </li>
+            <li><a href="#skills" class="navbar-link">Skills</a></li>
+            <li>
+              <a href="#" class="navbar-link">Projects</a>
+            </li>
+            <li><a href="#" class="navbar-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="toogle-container">
+          <input type="checkbox" id="toogle" />
+          <label class="toogle" for="toogle">
+            <i class="bx bxs-sun"></i>
+            <i class="bx bxs-moon"></i>
+            <span class="ball"></span>
+          </label>
+        </div>
+      </nav>
+    </header>
+    
+    <main class="hero-content">
+      <div class="hero-text">
+        <div class="hero-title">
+          <h2 class="hero-greeting">Hi, I'm Mosaddique</h2>
+          <h1 class="hero-intro">Front-End Developer</h1>
+        </div>
+        <div class="hero-description">
+          <p class="hero-summary">
+            Crafting stunning, user-friendly websites with clean
+            design, intuitive experiences, and a passion for
+            detail, resulting in engaging online platforms that
+            effectively communicate your message, elevate your
+            brand, and captivate your audience.
+          </p>
+        </div>
+        <button class="hero-cta">
+          <a href="#" class="hero-cta-link">View My Work</a>
+        </button>
+      </div>
+      
+      <div class="hero-image-container">
+        <img src="images/hero.png" alt="Hazrat Mosaddique Ali" class="hero-image" />
+      </div>
+    </main>
+  </div>
+  
+  <!-- About Container -->
+  <div class="About-container" id="about">
+    <!-- About Content -->
+    <div class="about-content">
+      <!-- About Head -->
+      <div class="about-head">
+        <h2 class="about-head-heading">About Me</h2>
+        <h3 class="about-head-tag">
+          Pixels to Perfection: Your Vision, My Code
+        </h3>
+      </div>
+      
+      <!-- About Body -->
+      <div class="about-body">
+        <!-- About Description -->
+        <div class="about-desc">
+          <!-- Introduction -->
+          <div class="about-desc-intro">
+            <p class="about-intro">
+              As a front-end developer, I build asthetic,
+              functional websites.
+            </p>
+            <p class="about-intro">
+              I design intuitive, fast, and flexible digital
+              solutions that enhance
+              <i>user experience</i> and easily scale across
+              various platforms.
+            </p>
+            <p class="about-intro">
+              With a huge passion for design, I am always
+              ready to learn and experience new trends and
+              techniques of the industry in order not to grow
+              old.
+            </p>
+            <p class="about-intro bld-all">
+              I'm dedicated to mastering
+              <b id="bld">front-end development</b>, and I'm on a
+              mission to push the boundaries of
+              <b id="bld">animation</b> and <b id="bld">motion design</b>.
+            </p>
+          </div>
+          
+          <!-- Personal Interests -->
+          <div class="about-desc-personal">
+            <p>When I'm not coding...</p>
+            <p>
+              In my spare time (away from the computer) I like
+              going for bike rides and catching up on some
+              sketching of landscapes, also vibin' out to
+              music.
+            </p>
+          </div>
+          
+          <!-- Call-to-Action -->
+          <div class="about-desc-cta">
+            <p class="cta-request">
+              Let's create something awesome together!
+            </p>
+            <button class="cta-request-button">
+              <a href="#" class="request-button-link">Get in Touch</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- skill -->
+  <div class="skill-container" id="skills">
+    <!-- Container for all skills -->
+    <div class="skill-content">
+      <!-- Main content area for skills -->
+      <div class="skill-head">
+        <h2 class="skill-head-title">My Skills</h2>
+      </div>
+      
+      <div class="skill-grid">
+        <!-- Grid layout for skill cards -->
+        
+        <div class="skill-grid-card">
+          <div class="skill-card-icon">
+            <!-- HTML & CSS -->
+            <div class="skill-card-icon-l">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <div class="skill-card-icon-s htmls">
+              <i class="fa-brands fa-html5 "></i>
+            </div>
+          </div>
+          <div class="skill-card-desc">HTML &amp; CSS</div>
+        </div>
+        
+        <div class="skill-grid-card">
+          <div class="skill-card-icon">
+            <!-- JavaScript -->
+            <div class="skill-card-icon-l">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <div class="skill-card-icon-s js">
+              <i class="fa-brands fa-js"></i>
+            </div>
+          </div>
+          <div class="skill-card-desc">JavaScript</div>
+        </div>
+        
+        <div class="skill-grid-card">
+          <div class="skill-card-icon">
+            <!-- React -->
+            <div class="skill-card-icon-l">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <div class="skill-card-icon-s">
+              <i class="fa-brands fa-react"></i>
+            </div>
+          </div>
+          <div class="skill-card-desc">React</div>
+        </div>
+        
+        <div class="skill-grid-card">
+          <div class="skill-card-icon">
+            <!-- Node.js -->
+            <div class="skill-card-icon-l">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+            <div class="skill-card-icon-s">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+          </div>
+          <div class="skill-card-desc">Node.js</div>
+        </div>
+        
+        <div class="skill-grid-card">
+          <div class="skill-card-icon">
+            <!-- Git & GitHub -->
+            <div class="skill-card-icon-l">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <div class="skill-card-icon-s">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+          </div>
+          <div class="skill-card-desc">Git &amp; GitHub</div>
+        </div>
+        
+        <div class="skill-grid-card">
+          <div class="skill-card-icon">
+            <!-- SEO -->
+            <div class="skill-card-icon-l">
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="skill-card-icon-s">
+              <i class="fas fa-search"></i>
+            </div>
+          </div>
+          <div class="skill-card-desc">SEO</div>
+        </div>
+        
+        <div class="skill-grid-card">
+          <div class="skill-card-icon">
+            <!-- Accessibility -->
+            <div class="skill-card-icon-l">
+              <i class="fa-solid fa-universal-access"></i>
+            </div>
+            <div class="skill-card-icon-s">
+              <i class="fa-solid fa-universal-access"></i>
+            </div>
+          </div>
+          <div class="skill-card-desc">Accessibility</div>
+        </div>
+        
+        <div class="skill-grid-card">
+          <div class="skill-card-icon">
+            <!-- UI/UX Design -->
+            <div class="skill-card-icon-l">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <div class="skill-card-icon-s">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+          </div>
+          <div class="skill-card-desc">UI/UX Design</div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+  <!-- Projects -->
+  <div class="p-container">
+    <div class="p-content">
+      <div class="p-heading">
+        <h2 class="p-head-title">My Projects</h2>
+      </div>
+      
+      <div class="p-disc">
+        
+        <div class="p-discrip">
+          
+          <div class="discrip">
+          
+          
+          <div class="p-image-container">
+            <div class="p-image">
+              <img src="./images/study.jpg" alt="bank-detail" class="bank-p">
+            </div>
+          </div>
+          <div class="p-discription">
+            <div class="p-disc-title">
+              <h2>StudySync</h2>
+            </div>
+            <div class="p-disc-detail">
+              <p>Seamless platform for brighter futures, trusted by educators. Fully responsive with rich multimedia
+                support.</p>
+            </div>
+            <div class="p-disc-role">
+              <h3 class="disc-role">Role:</h3>
+              <p>Front-end development, SEO optimization, touch-friendly UI design.</p>
+            </div>
+            <div class="disc-cta">
+              <a href="#" class="disc-cta-link">View Project</a>
+            </div>
+          </div>
+          
+          </div>
+          
+        </div>
+        
+        <div class="p-discrip">
+          
+          <div class="discrip">
+          <div class="p-image-container">
+            <div class="p-image">
+              <img src="./images/business.jpg" alt="bank-detail" class="bank-p">
+            </div>
+          </div>
+          <div class="p-discription">
+            <div class="p-disc-title">
+              <h2>Business Insights Platform</h2>
+            </div>
+            <div class="p-disc-detail">
+              <p>Data-driven platform for real-time business analytics, scalable and integrated with payment solutions.
+              </p>
+            </div>
+            <div class="p-disc-role">
+              <h3 class="disc-role">Role:</h3>
+              <p>UI/UX design, data visualization. </p>
+            </div>
+            <div class="disc-cta">
+              <a href="#" class="disc-cta-link">View Project</a>
+            </div>
+          </div>
+          </div>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+  
+  <!--   contact      -->
+  <div class="contact-container">
+    <!-- content -->
+    <div class="contact-content">
+      
+      <!-- cont heading -->
+      <div class="contact-heading">
+        <div class="contact-heading-title">
+          <h2>Let's Connect</h2>
+        </div>
+        
+        <div class="contact-heading-line">
+          <span>Feel free to reach out for collaboration, inquiries, or just to say hello!</span>
+        </div>
+        
+      </div>
+      
+      <!-- cont form -->
+      <div class="contact-form-top">
+          <form id="contact-form" class="contact-form">
+            
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" required="required" class="form-input">
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" required="required" class="form-input">
+            </div>
+            
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <select id="subject" class="form-select">
+                <option value="collaboration">Collaboration</option>
+                <option value="inquiry">Inquiry</option>
+                <option value="feedback">Feedback</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" rows="4" required="required" class="form-textarea"></textarea>
+            </div>
+            
+            <div class="form-cta">
+            <button type="submit" class="form-cta-b">Send Message</button>
+            </div>
+          
+        </form>
+        
+        
+        
+      </div>
+      
+      <!-- cont foot -->
+      <div class="contact-foot">
+        <P class="contact-foot-p">Prefer email? Reach me directly at: <a href="mailto:hazrat2325@gmail.com" class="foot-email">hazrat2325@gmail.com</a> </P>
+      </div>
+      
+    </div>
+    
+    
+  </div>
+  
+<div class="footer-container">
+  <div class="footer-content">
+    <div class="footer-logo">
+        <!-- Add your logo here if you have one -->
+        <div class="footer-icons">
+            <div class="footer-icon"><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></div>
+            <div class="footer-icon"><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></div>
+            <div class="footer-icon"><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a></div>
+            <div class="footer-icon"><a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></div>
+        </div>
+    </div>
+    <div class="footer-end">
+        <p class="footer-text">© 2024 Hazrat Mosaddique Ali</p>
+    </div>
+</div>
+</div>
+
+</body>
+
+</html>
